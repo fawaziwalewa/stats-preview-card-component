@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Stats preview card component</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="py-20 px-6 bg-main min-h-screen lg:flex lg:flex-col lg:items-center lg:justify-center font-inter">
+        <div class="bg-primary rounded-lg overflow-clip c-shadow md:flex md:flex-row-reverse max-w-6xl w-full mx-auto">
+            <div class="relative md:w-1/2">
+                <!-- Desktop image -->
+                <img src="./images/image-header-desktop.jpg" alt="Team working"
+                    class="hidden md:block w-full object-cover" />
+                <!-- Mobile image -->
+                <img src="./images/image-header-mobile.jpg" alt="Team working" class="w-full md:hidden object-cover" />
+                <!-- Overlay -->
+                <div class="absolute inset-0 bg-secondary opacity-75 mix-blend-multiply"></div>
+            </div>
+            <!-- Content -->
+            <div class="py-10 px-8 md:px-20 text-white text-center md:text-start md:w-1/2 my-auto">
+                <h1 class="text-3xl md:text-4xl font-bold">
+                    Get <span class="text-secondary">insights</span> that help your
+                    business grow.
+                </h1>
+                <p class="text-white/75 mt-4">
+                    Discover the benefits of data analytics and make better decisions
+                    regarding revenue, customer experience, and overall efficiency.
+                </p>
+                <div class="grid md:grid-cols-3 gap-6 mt-10 md:mt-16 font-lexend">
+                    <div>
+                        <h3 class="font-bold text-2xl">10k+</h3>
+                        <p class="uppercase text-sm text-white/60">Companies</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-2xl">314</h3>
+                        <p class="uppercase text-sm text-white/60">Templates</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-2xl">12M+</h3>
+                        <p class="uppercase text-sm text-white/60">Queries</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
