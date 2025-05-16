@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View on Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [View on Frontend Mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component---tailwindcss-RZk-1NZnVe)
 - Live Site URL: [Live Preview](https://stats-preview-card-component-navy-rho.vercel.app/)
 
 ## My process

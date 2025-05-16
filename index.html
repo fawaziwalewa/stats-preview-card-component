@@ -17,39 +17,39 @@
 </head>
 
 <body>
-    <main class="py-20 px-6 bg-main min-h-screen lg:flex lg:flex-col lg:items-center lg:justify-center font-inter">
-        <div class="bg-primary rounded-lg overflow-clip c-shadow md:flex md:flex-row-reverse max-w-6xl w-full mx-auto">
+    <main class="min-h-screen px-6 py-20 bg-main lg:flex lg:flex-col lg:items-center lg:justify-center font-inter">
+        <div class="w-full max-w-6xl mx-auto rounded-lg bg-primary overflow-clip c-shadow md:flex md:flex-row-reverse">
             <div class="relative md:w-1/2">
                 <!-- Desktop image -->
                 <img src="./images/image-header-desktop.jpg" alt="Team working"
-                    class="hidden md:block w-full object-cover" />
+                    class="hidden object-cover w-full h-full md:block" />
                 <!-- Mobile image -->
-                <img src="./images/image-header-mobile.jpg" alt="Team working" class="w-full md:hidden object-cover" />
+                <img src="./images/image-header-mobile.jpg" alt="Team working" class="object-cover w-full h-full md:hidden" />
                 <!-- Overlay -->
-                <div class="absolute inset-0 bg-secondary opacity-75 mix-blend-multiply"></div>
+                <div class="absolute inset-0 opacity-75 bg-secondary mix-blend-multiply"></div>
             </div>
             <!-- Content -->
-            <div class="py-10 px-8 md:px-20 text-white text-center md:text-start md:w-1/2 my-auto">
-                <h1 class="text-3xl md:text-4xl font-bold">
+            <div class="px-8 py-10 my-auto text-center text-white md:px-20 md:text-start md:w-1/2">
+                <h1 class="text-3xl font-bold md:text-4xl">
                     Get <span class="text-secondary">insights</span> that help your
                     business grow.
                 </h1>
-                <p class="text-white/75 mt-4">
+                <p class="mt-4 text-white/75">
                     Discover the benefits of data analytics and make better decisions
                     regarding revenue, customer experience, and overall efficiency.
                 </p>
-                <div class="grid md:grid-cols-3 gap-6 mt-10 md:mt-16 font-lexend">
+                <div class="grid gap-6 mt-10 md:grid-cols-3 md:mt-16 font-lexend">
                     <div>
-                        <h3 class="font-bold text-2xl">10k+</h3>
-                        <p class="uppercase text-sm text-white/60">Companies</p>
+                        <h3 class="text-2xl font-bold">10k+</h3>
+                        <p class="text-sm uppercase text-white/60">Companies</p>
                     </div>
                     <div>
-                        <h3 class="font-bold text-2xl">314</h3>
-                        <p class="uppercase text-sm text-white/60">Templates</p>
+                        <h3 class="text-2xl font-bold">314</h3>
+                        <p class="text-sm uppercase text-white/60">Templates</p>
                     </div>
                     <div>
-                        <h3 class="font-bold text-2xl">12M+</h3>
-                        <p class="uppercase text-sm text-white/60">Queries</p>
+                        <h3 class="text-2xl font-bold">12M+</h3>
+                        <p class="text-sm uppercase text-white/60">Queries</p>
                     </div>
                 </div>
             </div>
